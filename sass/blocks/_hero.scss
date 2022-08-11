@@ -1,0 +1,71 @@
+.hero{
+    overflow: hidden;
+    position: relative;
+    padding: 153px 0 152px 0;
+    background-image: url("../../images/hero-bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    &::before {
+        position: absolute;
+        width: 203px;
+        height: 16px;
+        top: 383px;
+        left: calc(50% - 800px);
+        background-image: url("../../images/stockline.png");
+        background-repeat: no-repeat;
+        content: "";
+    }
+    &::after {
+        position: absolute;
+        width: 453px;
+        height: 151px;
+        top: 355px;
+        left: calc(50% + -50px);
+        background-image: url("../../images/stockright.png");
+        background-repeat: no-repeat;
+        content: "";
+    }
+}
+
+.hero__inner {
+    position: relative;
+    &::before {
+        position: absolute;
+        width: 234px;
+        height: 63px;
+        bottom: 14px;
+        background-image: url("../../images/elpice.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        right: calc(50% - 790px);
+        content: "";
+    }
+}
+
+.hero__title--wrapper {
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+}
+
+.hero__text--wrapper {
+    width: 405px;
+    margin-left: 57px;
+}
+
+.hero__text {
+    margin: 0 0 40px 0;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    color: #FFFFFF;
+}
