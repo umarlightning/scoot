@@ -405,16 +405,25 @@ main {
   line-height: 167%;
   color: #939CAA;
 }
+.navbar__link:hover {
+  color: #FCB72B;
+}
 
 .site-header__link {
   margin-left: auto;
   padding: 14px 39px;
+  border: 3px solid transparent;
   text-decoration: none;
   background-color: #FCB72B;
   font-weight: 700;
   font-size: 15px;
   line-height: 167%;
   color: #FFFFFF;
+}
+.site-header__link:hover {
+  border: 3px solid #FCB72B;
+  background-color: transparent;
+  color: #FCB72B;
 }
 
 .hero {
@@ -630,9 +639,15 @@ main {
   padding: 14px 44px;
   font-weight: 700;
   font-size: 15px;
+  border: 3px solid transparent;
   line-height: 167%;
   color: #FFFFFF;
   background-color: #FCB72B;
+}
+.list__link:hover {
+  border: 3px solid #FCB72B;
+  background-color: transparent;
+  color: #FCB72B;
 }
 
 .site-footer__top {
@@ -681,6 +696,10 @@ main {
 
 .site-footer__linkk + .site-footer__linkk {
   margin-left: 12px;
+}
+
+.site-footer__img:hover {
+  fill: #E5ECF4;
 }
 
 .about-hero {

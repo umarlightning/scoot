@@ -31,15 +31,24 @@
     font-size: 15px;
     line-height: 167%;
     color: #939CAA;
+    &:hover {
+        color: #FCB72B;
+    }
 }
 
 .site-header__link {
     margin-left: auto;
     padding: 14px 39px;
+    border: 3px solid transparent;
     text-decoration: none;
     background-color: #FCB72B;
     font-weight: 700;
     font-size: 15px;
     line-height: 167%;
     color: #FFFFFF;
+    &:hover {
+        border: 3px solid #FCB72B;
+        background-color: transparent;
+        color: #FCB72B;
+    }
 }
