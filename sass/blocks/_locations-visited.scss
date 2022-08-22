@@ -1,0 +1,44 @@
+.visited__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 120px 0;
+}
+
+.visited__title-wrapper {
+  width: 351px;
+}
+
+.visited__title {
+  font-family: 'Space Mono';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.visited__text-wrapper {
+  width: 445px;
+}
+
+.visited__text {
+  font-family: 'Lexend Deca';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 167%;
+  color: #939CAA;
+}
+
+.visited__btn {
+  padding: 14px 44px;
+  border: none;
+  background-color: #FCB72B;
+  font-family: 'Space Mono';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 167%;
+  text-align: center;
+  color: #FFFFFF;
+
+}

@@ -846,4 +846,137 @@ main {
   line-height: 25px;
   text-align: center;
   color: #939CAA;
+}
+
+.summary__title {
+  margin: 0;
+  margin-bottom: 64px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  text-align: center;
+  color: #495567;
+  text-align: center;
+}
+
+.st-details-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.summary__title-details-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+.summary__details-title {
+  width: 100%;
+  max-width: 350px;
+  margin: 0;
+  margin-right: 30px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  color: #495567;
+}
+
+.summary__details {
+  display: inline-block;
+  width: 730px;
+  padding: 32px 40px;
+  background-color: #F2F5F9;
+  margin-bottom: 16px;
+}
+.summary__details:nth-child(3) {
+  margin-bottom: 96px;
+}
+
+.summary__details-inner {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.summary__details-inner::-webkit-details-marker {
+  display: none;
+}
+
+.summary__details-inner-title {
+  font-family: "Space Mono";
+  font-weight: 700;
+  margin-bottom: 24px;
+  font-size: 24px;
+  line-height: 117%;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+
+.summary__details-inner-p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 167%;
+  color: #495567;
+}
+
+.location-hero {
+  padding: 62px 0 120px;
+  background-image: url("../../images/locations.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 190px;
+}
+
+.location-hero__title {
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+}
+
+.visited__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 120px 0;
+}
+
+.visited__title-wrapper {
+  width: 351px;
+}
+
+.visited__title {
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.visited__text-wrapper {
+  width: 445px;
+}
+
+.visited__text {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 167%;
+  color: #939CAA;
+}
+
+.visited__btn {
+  padding: 14px 44px;
+  border: none;
+  background-color: #FCB72B;
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 167%;
+  text-align: center;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */

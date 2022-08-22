@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="./css/main.css">
   <title>Nick Hallden</title>
 </head>
+
 <body>
   <!------------------------------------------------------------ SITE HEADER BEGINN ----------------------------------------------------->
   <header class="site-header">
@@ -36,9 +38,32 @@
   <!-------------------------------------------------------------- MAIN BEGINN ---------------------------------------------------------->
   <main>
     <!-------------------------------------------------------- location section beginn ---------------------------------------------------->
-    <section>
+    <section class="location-hero">
       <div class="container">
-        
+        <h2 class="location-hero__title">Locations</h2>
+      </div>
+    </section>
+    <section class="locations">
+      <div id="map"></div>
+    </section>
+    <section class="locations-visited">
+      <div class="container">
+        <div class="visited__wrapper">
+          <div class="visited__title-wrapper">
+            <h3 class="visited__title">
+              Your city not listed?
+            </h3>
+          </div>
+          <div class="visited__text-wrapper">
+            <p class="visited__text">
+              If you’d like to see Scoot in your hometown, be sure to let us know. We track requests and plan launches
+              based on demand. Feel free to message us by clicking the link or messaging us on social.
+            </p>
+          </div>
+          <button class="visited__btn">
+            Message Us
+          </button>
+        </div>
       </div>
     </section>
     <!---------------------------------------------------------- location section end ----------------------------------------------------->
@@ -59,7 +84,8 @@
               <img class="site-footer__link" src="./images/appstore.png" alt="link appstore" width="159" height="56">
             </a>
             <a class="site-footer__link" href="https://playmarket.com">
-              <img class="site-footer__link" src="./images/google-play.png" alt="link play market" width="182" height="56">
+              <img class="site-footer__link" src="./images/google-play.png" alt="link play market" width="182"
+                height="56">
             </a>
           </div>
         </div>
@@ -72,7 +98,7 @@
           <a class="logo" href="./index.html">
             <img class="logo-img" src="./images/scoot.svg" alt="site logo" width="108" height="29">
           </a>
-          
+
           <nav class="navbar">
             <ul class="navbar__list">
               <li class="navbar__item">
@@ -86,7 +112,7 @@
               </li>
             </ul>
           </nav>
-          
+
           <div class="site-footer__links">
             <a class="site-footer__linkk" href="https://facebook.com">
               <img class="site-footer__img" src="./images/facebook.svg" alt="facebook link" width="24" height="24">
@@ -103,8 +129,10 @@
     </div>
   </footer>
   <!---------------------------------------------------------------- FOOTER END -------------------------------------------------------->
-  
-  
-  
+
+  <script src="./mapdata.js"></script>
+  <script src="./worldmap.js"></script>
+
 </body>
+
 </html>
