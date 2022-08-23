@@ -43,10 +43,25 @@
     display: inline-block;
 }
 
-.site-footer__linkk + .site-footer__linkk {
+.site-footer__linkk+.site-footer__linkk {
     margin-left: 12px;
 }
 
 .site-footer__img:hover {
     fill: #E5ECF4;
+}
+
+@include max-min ($max-width: 900px, $min-width: 768px) {
+
+    .site-footer__inner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .site-footer__title {
+        width: 457px;
+        margin-bottom: 40px;
+    }
+
+
 }

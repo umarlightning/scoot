@@ -21,7 +21,7 @@
     list-style-type: none;
 }
 
-.navbar__item + .navbar__item {
+.navbar__item+.navbar__item {
     margin-left: 32px;
 }
 
@@ -31,6 +31,7 @@
     font-size: 15px;
     line-height: 167%;
     color: #939CAA;
+
     &:hover {
         color: #FCB72B;
     }
@@ -46,9 +47,27 @@
     font-size: 15px;
     line-height: 167%;
     color: #FFFFFF;
+
     &:hover {
         border: 3px solid #FCB72B;
         background-color: transparent;
         color: #FCB72B;
+    }
+}
+
+
+@include max-min ($max-width: 900px, $min-width: 768px){
+
+    .container{
+        max-width: 940px;
+    }
+
+    .site-header{
+        padding: 22px;
+    }
+
+    .site-header__inner{
+        display: flex;
+        align-items: center;
     }
 }

@@ -54,3 +54,24 @@
   text-align: center;
   color: #939CAA;
 }
+
+
+@include max-min ($max-width: 900px, $min-width: 768px) {
+  .about-values__list {
+    flex-direction: column;
+  }
+
+  .about-values__item-title {
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: #495567;
+  }
+
+  .about-values__list-item {
+    width: 457px;
+  }
+}
